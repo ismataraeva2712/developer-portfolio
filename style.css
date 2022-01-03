@@ -10,6 +10,7 @@ h1{
 }
 section{
     display: flex;
+    margin-bottom: 100px;
 }
 
 .sub-heading{
@@ -31,4 +32,16 @@ section{
 .hlw{
     background-image: url(images/top-banner.png);
     background-repeat: no-repeat;
+}
+.big-dream{
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.about-heading{
+    width:50%;
+    padding-right:8%;
+}
+.about-heading img{
+    width:100%;
 }
