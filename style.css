@@ -4,11 +4,17 @@ body{
 }
 h1{
     font-size: 50px;
+    
+}
+h2{
+    font-size: 40px;
 }
 .orange{
-    color: orange;
+    background: -webkit-linear-gradient(rgb(236, 12, 12),orange);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
-section{
+.flexible-container{
     display: flex;
     margin-bottom: 100px;
 }
@@ -44,4 +50,40 @@ section{
 }
 .about-heading img{
     width:100%;
+}
+.experience{
+    padding-left:65px;
+    background: -webkit-linear-gradient(rgb(245, 14, 14),orange);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    
+}
+
+.experience-item{
+    box-shadow: 10px 10px 40px gray;
+    width:40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 25px;
+    padding-right: 5px;
+    
+}
+.experience-area{
+background-image: url(images/exp-bg.png);
+background-repeat: no-repeat;
+background-position: left;
+}
+#web-experience{
+    border-left: 7px solid;
+    border-image:linear-gradient(blue,cyan);
+    border-image-slice: 1;
+}
+#full-stack{
+    border-left: 7px solid;
+    border-image:linear-gradient(salmon,tomato);
+    border-image-slice: 1;
+}
+footer p{
+    text-align: center;
+    color:red;
 }
